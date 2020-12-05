@@ -13,6 +13,8 @@ public class Main {
 		
 		Persona persona = (Persona)factory.getBean("persona");
 		
+		System.out.println("hola");
+		
 		persona.mostrarEstudianteActual();
 
 	}
